@@ -9,7 +9,9 @@
 <body <?php body_class(); ?>>
     <header>
         <div class="header-inner-wrapper">
-            <?php the_custom_logo(); ?> 
+            <div class="header-inner-wrapper-logo">
+                <?php the_custom_logo(); ?> 
+            </div>
             
         </div>
     </header>

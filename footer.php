@@ -1,7 +1,9 @@
     <footer>
         <div class="footer-inner-wrap">
             <div class="footer-top">
-                <?php the_custom_logo(); ?>
+                <div class="footer-top-logo">
+                    <?php the_custom_logo(); ?>
+                </div>
             </div>
             <div class="fotter-bottom">
                 <p>
