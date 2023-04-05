@@ -8,8 +8,8 @@
 </head>
 <body <?php body_class(); ?>>
     <header>
-        <div class="header-inner-wrapper">
-            <div class="header-inner-wrapper-logo">
+        <div class="header-inner-wrap">
+            <div class="header-inner-wrap-logo">
                 <?php the_custom_logo(); ?> 
             </div>
             

@@ -1,9 +1,31 @@
-.header-inner-wrapper-logo img {
-  width: 20%;
+h1, h2, h3, p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section, .header-inner-wrap, .footer-inner-wrap {
+  max-width: 1240px;
+  padding: 20px;
+  margin: 0 auto;
+}
+@media (max-width: 540px) {
+  section, .header-inner-wrap, .footer-inner-wrap {
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+@media (min-width: 820px) and (max-width: 1024px) {
+  section, .header-inner-wrap, .footer-inner-wrap {
+    max-width: 90%;
+    padding: 40px 20px;
+  }
+}
+
+.header-inner-wrap-logo img {
+  max-width: 80px;
   height: auto;
 }
 
 .footer-inner-wrap .footer-top-logo img {
-  width: 20%;
+  max-width: 80px;
   height: auto;
 }/*# sourceMappingURL=main.css.map */

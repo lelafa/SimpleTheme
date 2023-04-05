@@ -1,7 +1,46 @@
 
-.header-inner-wrapper{
+$container-width: 1240px;
+$horizontal-padding: 20px;
+
+$breakpoint-small: 540px;
+$breakpoint-medium: 820px;
+$breakpoint-large: 1024px;
+
+$h1-font-size: 48px;
+$h2-font-size:40px;
+$h3-font-size:32px;
+$p-font-size:16px;
+
+$h1-font-size-mobile: 32px;
+$h2-font-size-mobile:24px;
+$h3-font-size-mobile:18px;
+$p-font-size-mobile:14px;
+
+
+h1,h2,h3,p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section, .header-inner-wrap, .footer-inner-wrap {
+    max-width: $container-width;
+    padding: $horizontal-padding;
+    margin: 0 auto;
+
+    @media (max-width: $breakpoint-small) {
+        max-width: 100%;
+        padding: $horizontal-padding;
+    }
+
+    @media (min-width: $breakpoint-medium) and (max-width: $breakpoint-large) {
+        max-width: 90%;
+        padding: 40px $horizontal-padding;
+    }
+}
+
+.header-inner-wrap{
+
     &-logo img{
-        width:20%;
+        max-width:80px;
         height: auto;
     }
 }
@@ -10,7 +49,7 @@
     
     .footer-top{
         &-logo img{
-            width:20%;
+            max-width:80px;
             height: auto;
         }
     }
