@@ -1,0 +1,13 @@
+.social-sharing-wrapper{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.social-sharing-wrapper img{
+    margin-right: 5px;
+    width: 24px;
+}
+.social-sharing-wrapper a{
+    display: flex;
+    align-items: center;
+}
